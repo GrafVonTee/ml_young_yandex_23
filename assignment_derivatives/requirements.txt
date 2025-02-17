@@ -1,0 +1,8 @@
+numpy
+scipy
+matplotlib
+ipykernel
+ipywidgets
+notebook
+jupyter
+scikit-learn

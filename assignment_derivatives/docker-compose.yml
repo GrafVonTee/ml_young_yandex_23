@@ -1,0 +1,11 @@
+services:
+  yy-env:
+    image: "python:3.8.5"
+    volumes:
+      - .:/workspace
+    working_dir: /workspace
+    ports:
+      - "8888:8888"
+    stdin_open: true
+    tty: true
+    command: ["bash"]
